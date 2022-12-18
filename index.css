@@ -102,6 +102,10 @@ main {
 	letter-spacing: 4.38px;
 	padding: 13px 35px 11px 31px;
 }
+.main__content__col2__elements__right button:hover {
+	background-color: #00001A;
+	cursor: pointer;
+}
 .main__content__col3 {
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -123,6 +127,10 @@ main {
 	font-weight: bolder;
 	color: #fffdfa;
 	margin-bottom: 8px;
+}
+.main__content__col3__elements h3:hover {
+	color: #E9AA52;
+	cursor: pointer;
 }
 .main__content__col3__elements p {
 	color: #c5c6ce;
@@ -163,4 +171,8 @@ main {
 	font-weight: bolder;
 	color: #00001a;
 	margin-bottom: 9px;
+}
+.main__bottom__element__content h3:hover {
+	color: #F15D51;
+	cursor: pointer;
 }
