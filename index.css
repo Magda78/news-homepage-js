@@ -25,6 +25,7 @@ nav {
 .nav__elements {
 	display: flex;
 	flex-direction: row;
+    align-items: center;
 }
 .nav__elements h2 {
     font-size: 15px;
@@ -32,4 +33,7 @@ nav {
     margin-left: 40px;
     cursor: pointer;
     color: #5E607A;
+}
+.nav__elements h2:hover {
+    color: #F15D51;
 }
