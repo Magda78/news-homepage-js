@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+	max-width: 1440px;
+	max-height: 1024px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fefdf9;
+	padding: 89px 165px 129px 165px;
+	font-family: Inter;
+}
+nav {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: space-center;
+}
+.nav__logo {
+	width: 64px;
+	height: 40px;
+}
+.nav__elements {
+	display: flex;
+	flex-direction: row;
+}
+.nav__elements h2 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 40px;
+    cursor: pointer;
+    color: #5E607A;
+}
