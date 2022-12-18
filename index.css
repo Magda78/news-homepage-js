@@ -11,12 +11,13 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: #fefdf9;
-	padding: 89px 165px 129px 165px;
+	padding: 97px 165px 129px 165px;
 	font-family: Inter;
 }
 p {
 	font-size: 15px;
 	color: #5e607a;
+	line-height: 26px;
 }
 nav {
 	width: 100%;
@@ -24,6 +25,7 @@ nav {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 61px;
 }
 .nav__logo {
 	width: 64px;
@@ -46,6 +48,89 @@ nav {
 }
 main {
 	width: 100%;
+}
+.main__content {
+	display: grid;
+	grid-template-columns: 730px 350px;
+	grid-gap: 30px;
+	color: red;
+	margin-bottom: 71px;
+}
+.main__content__col1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.main__content__col1 img {
+	width: 100%;
+	height: 300px;
+}
+.main__content__col2 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.main__content__col2__elements {
+	display: flex;
+	flex-direction: row;
+}
+.main__content__col2__elements__left {
+	flex: 1;
+	margin-right: 30px;
+}
+.main__content__col2__elements__left h1 {
+	font-size: 56px;
+	line-height: 56px;
+	font-weight: bolder;
+	color: #00001a;
+}
+.main__content__col2__elements__right {
+	flex: 1;
+	position: relative;
+}
+.main__content__col2__elements__right button {
+	position: absolute;
+	bottom: 0;
+	background-color: #f15d51;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	letter-spacing: 4.38px;
+	padding: 13px 35px 11px 31px;
+}
+.main__content__col3 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-color: #00001a;
+	padding: 32px 24px 31px 24px;
+}
+.main__content__col3 h2 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #e9aa52;
+}
+.main__content__col3__elements {
+	margin-top: 34px;
+}
+.main__content__col3__elements h3 {
+	font-size: 20px;
+	font-weight: bolder;
+	color: #fffdfa;
+	margin-bottom: 8px;
+}
+.main__content__col3__elements p {
+	color: #c5c6ce;
+}
+.main__content__col3__elements hr {
+	margin-top: 29px;
+	margin-bottom: 31px;
+	color: #979797;
 }
 .main__bottom {
 	display: flex;
