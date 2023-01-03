@@ -257,7 +257,7 @@ main {
 		justify-content: space-between;
 	}
 	.main__content2 button {
-		width: 50%;
+		width: 60%;
 	}
 	.main__content3 {
 		grid-area: content3;
