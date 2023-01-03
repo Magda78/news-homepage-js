@@ -67,13 +67,12 @@ nav {
 	transition: 2s ease-in-out;
 }
 .nav__open__menu {
-	display: block;
+	display: none;
 	background-color: #fffdfa;
 	width: 256px;
 	height: 670px;
 	position: absolute;
 	top: 0px;
-	right: -256px;
 	transition: 2s ease-in-out;
 }
 .nav__open__menu svg {
@@ -222,6 +221,9 @@ main {
 }
 
 @media (min-width: 1022px) {
+	body {
+		padding: 97px 165px 129px 165px;
+	}
 	.main__content {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
