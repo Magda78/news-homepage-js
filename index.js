@@ -10,7 +10,6 @@ const openIconHandler = () => {
 const closeIconHandler = () => {
 	menu.classList.remove('active');
 	overlay.classList.remove('fadeIn');
-	//overlay.classList.add('fadeOut');
 };
 
 openBtn.addEventListener('click', openIconHandler);
